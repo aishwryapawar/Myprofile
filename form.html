@@ -1,23 +1,35 @@
 <!DOCTYPE html>
 <html>
   <head>
-    
-    <h4>My html Page</h4>
+    <style>
+      #objective {
+        color: black;
+        background-color: aqua;
+      }
+    </style>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
   </head>
   <body>
-    <i class="fa fa-user" aria-hidden="true"> &nbsp;<b>Mohit Sharma</b></i>
+    <i id="objective" class="fa fa-user" aria-hidden="true"> &nbsp;<b>Mohit Sharma</b></i>
     &nbsp; &nbsp; &nbsp; &nbsp;
-    <i class="fa fa-phone-square" aria-hidden="true">&nbsp;<b>9876543210</b></i
+    <i id="objective" class="fa fa-phone-square" aria-hidden="true">&nbsp;<b>9876543210</b></i
     >&nbsp; &nbsp; &nbsp; &nbsp;
-    <i class="fa fa-envelope" aria-hidden="true"
+    <i id="objective" class="fa fa-envelope" aria-hidden="true"
       >&nbsp;<b>aishwaryarpawar1997@gmail.com</b></i
     ><br />
+    <br />
 
-    <iframe width="900px" height="500px"></iframe><br />
+    <a href="home.html" target="MyFrame">HOME</a> &nbsp; &nbsp; &nbsp;
+    <a href="techStack.html" target="MyFrame">TECHNOLOGY STACK</a> &nbsp; &nbsp;
+    &nbsp; <a href="education.html" target="MyFrame">EDUCATION</a> &nbsp; &nbsp;
+    &nbsp; <a href="project.html" target="MyFrame">PROJECT</a> &nbsp; &nbsp;
+    &nbsp; <a href="personal.html" target="MyFrame">PERSONAL</a> &nbsp; &nbsp;
+    &nbsp; <a href="contact.html" target="MyFrame">CONTACT US</a><br />
+
+    <iframe width="900px" height="400px" name="MyFrame"></iframe><br />
 
     <b>Follow me</b> &nbsp; &nbsp;
 
